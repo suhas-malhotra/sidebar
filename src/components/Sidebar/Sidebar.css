@@ -5,6 +5,7 @@
 }
 .container {
   display: flex;
+  padding: 20px 0px 20px 20px;
 }
 main {
   width: 100%;
@@ -12,10 +13,13 @@ main {
 }
 .sidebar {
   background: #000;
+  border-radius: 35px;
+  margin: 0px 20px;
   color: #fff;
-  height: 100vh;
+  height: 95vh;
   width: 200px;
-  transition: all 0.5s;
+  transition: font-size 1s;
+  font-weight: 400;
 }
 .bottom_section {
   position: absolute;
@@ -31,12 +35,14 @@ main {
   display: flex;
   font-size: 25px;
   margin-left: 50px;
+  margin-bottom: 40px;
 }
 .link {
-  margin-top: 20px;
+  border-top-left-radius: 100px;
+  border-bottom-left-radius: 100px;
   display: flex;
   color: #fff;
-  padding: 10px 15px;
+  padding: 10px 35px 5px 35px;
   gap: 15px;
   transition: all 0.5s;
 }
@@ -50,7 +56,6 @@ main {
 
   color: #000;
 }
-.icon,
-.link_text {
-  font-size: 20px;
+.icon {
+  font-size: 21px;
 }
